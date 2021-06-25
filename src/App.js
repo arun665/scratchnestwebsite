@@ -1,24 +1,77 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  useHistory,
+} from "react-router-dom";
+import HomeSector from "./components/HomeSectors/HomeSector.tsx";
+
+import React, { useEffect, useState } from "react";
+import Topheader from "./components/top_header";
+
+import Splashscreen from "./components/Splash Screen/Splashscreen";
+
+
+
+
+
+
+
+
+
 
 function App() {
+  
+  const [loading, setLoading] = useState(true);
+  const reload = () => window.location.reload();
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 4000);
+  }, []);
+
+/*  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((authUser) => {
+      if (authUser) {
+        // the user is logged in
+        dispatch({
+          type: "SET_USER",
+          user: authUser,
+        });
+      } else {
+        //user is logged out
+        dispatch({
+          type: "SET_USER",
+          user: null,
+        });
+      }
+    });
+    console.log("USER IS>>", user);
+
+    return () => {
+      //cleanup once logout
+      unsubscribe();
+    };
+  }, []);
+
+*/
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App" >
+        {loading == true ? (
+          <Splashscreen />
+        ) : (
+          <Router>
+            <Topheader/>
+            <Switch>
+              <Route component={HomeSector} exact path="/" />
+           
+            </Switch>
+          </Router>
+        )}
+      </div>
+    </>
   );
 }
 
