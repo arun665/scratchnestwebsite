@@ -1,6 +1,6 @@
 @media (min-width: 998px) {
 
-    #datalogger{
+    #datalogger2{
         height:110vh;
         
         font-family: 'Noto Sans JP', sans-serif;
@@ -126,7 +126,7 @@ margin-left:2%;
     
     @media (min-width: 576px) and (max-width: 998px) {
     
-        #datalogger{
+        #datalogger2{
             height:100vh;
             margin-top:1%;
     
@@ -241,7 +241,7 @@ margin-left:2%;
     
     @media (max-width: 576px) {
     
-        #datalogger{
+        #datalogger2{
             height:110vh;
     margin-top:0%;
             background-color: black;;
@@ -283,7 +283,7 @@ margin-left:2%;
             width:100%;
                 overflow-x: visible;
                 margin-top:10%;
-                text-align:center;
+                text-align:left;
                 color:white;
                 h3{
                     font-size: 1.3em;
@@ -345,6 +345,7 @@ margin-left:2%;
            padding-right:10px;
            padding-top:10px;
         padding-bottom:10px;
+        margin-left:10%;
         
            border-radius: 20px;
             }
