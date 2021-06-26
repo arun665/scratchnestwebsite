@@ -13,10 +13,12 @@ import DataLogger from "../HomeSectors/DataLogger/datalogger2";
 import Rfid from "../HomeSectors/RFID/rfid2";
 import OurSectors  from "./oursectors/OurSectors";
 import Footer from "../Footer/footer2";
-
+import { useEffect  } from "react";
 
 function HomeSector() {
-  
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="home">
    <Topheader/>

@@ -6,9 +6,14 @@ import { IonButton, IonCol, IonGrid, IonRow, IonText } from "@ionic/react";
 import Footer from "../../Footer/footer2";
 import { Link } from "react-router-dom";
 import DataLogger from "./DataLogger/datalogger2";
-
+import { useEffect } from "react";
 function DataLoggerSec() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
+
 <>
 <Topheader/>
 <div className="container-fluid" id="logger">
