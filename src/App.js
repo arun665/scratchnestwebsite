@@ -13,6 +13,7 @@ import Topheader from "./components/top_header";
 
 import Splashscreen from "./components/Splash Screen/Splashscreen";
 
+import DataLoggerSec from "./components/Sector/Logger/DataLogger_sec";
 
 
 
@@ -63,10 +64,10 @@ function App() {
           <Splashscreen />
         ) : (
           <Router>
-            <Topheader/>
+        
             <Switch>
               <Route component={HomeSector} exact path="/" />
-           
+              <Route component={DataLoggerSec} path="/sector/datalogger" />
             </Switch>
           </Router>
         )}

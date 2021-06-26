@@ -20,6 +20,7 @@ function Footer() {
             />
 
 <hr></hr>
+
             
            <div className="btn-group">
            <a href="https://twitter.com/NestScratch">

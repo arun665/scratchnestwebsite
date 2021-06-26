@@ -56,19 +56,30 @@ function Topheader(props: any) {
   </button>
   <div className="collapse navbar-collapse" id="collapsibleNavbar">
     <ul className="navbar-nav" id="branddiv" >
-      <li className="nav-item" id="brand">
+    <Link to="/sector/datalogger" id="brand">
+     
+      <li className="nav-item" >
         <a className="nav-link" href="#" id="brand">RFID</a>
       </li>
-      <li className="nav-item" id="brand">
+     </Link>
+      <Link to="/sector/datalogger" id="brand">
+     
+      <li className="nav-item" >
         <a className="nav-link" href="#" id="brand">Beacon</a>
       </li>
-      <li className="nav-item" id="brand">
+      </Link>
+      <Link to="/sector/datalogger" id="brand">
+     
+      <li className="nav-item" >
         <a className="nav-link" href="#" id="brand">DataLogger</a>
       </li>    
-      <li className="nav-item" id="brand">
+      </Link>
+      <Link to="/sector/datalogger" id="brand">
+     
+      <li className="nav-item">
         <a className="nav-link" href="#" id="brand">Education</a>
       </li>        
-          
+     </Link>     
     </ul>
     <button className="btn btn-outline-primary" id="btn"> Cart</button>
  
