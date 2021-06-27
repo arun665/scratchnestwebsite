@@ -16,29 +16,46 @@
 a{
   font-size:1.1em;
   color:white;
-  float:right;
+  float:left;
+}
+.dropdown-item{
+  font-size:1em;
 }
 .logofooter{
   width:200px;
-  margin-top:3%;
-  margin-bottom:3%;
+  margin-top:1%;
+  margin-bottom:1%;
   margin-left:10%;
 }
 
 #brand{
   font-family: 'Noto Sans', sans-serif;
-margin-left:2%;
-margin-right:2%;
+margin-left:1%;
+margin-right:1%;
 color:white;
 }
+ul{
+  list-style-type:none;
+}
 #branddiv{
-  margin-left:25%;;
- width:100%;
+  margin-left:10%;;
+ width:40%;
+ margin-top: auto;
+ margin-bottom: auto;
+ li{
+   margin-left:0px;
+   margin-right:0px;
+   float:left;
+ }
+}
+table{
+  width:100%;
 }
 #btn{
 float:right;
-right:50px;;
-margin-right:2%;
+
+margin-right:1%;
+margin-left:10%;
 font-size:1.1em;
 align-items: right;
 background-color: #1DDAF2;
@@ -70,7 +87,7 @@ margin-bottom: 0px;;
   }
   a{
     font-size:1.1em;
-    color:rgb(61, 55, 55);
+   color:white;
     float:right;
   }
   .logofooter{
@@ -82,8 +99,8 @@ margin-bottom: 0px;;
   
   #brand{
     font-family: 'Noto Sans', sans-serif;
-  margin-left:2%;
-  margin-right:2%;
+  margin-left:0%;
+  margin-right:0%;
   color:white;
   }
   #branddiv{
@@ -93,7 +110,7 @@ margin-bottom: 0px;;
   float:right;
   
   float:right;
-  margin-left:25%;
+  margin-left:5%;
   font-size:1.1em;
   
   align-items: right;
@@ -104,7 +121,30 @@ margin-bottom: 0px;;
   padding-right:15px;
   color:black;
   font-family: 'Noto Sans', sans-serif;
-  
+  display:none;
+  }
+
+  ul{
+    list-style-type:none;
+  }
+  #branddiv{
+    display: none;;
+    margin-left:4%;;
+   width:50%;
+   margin-top: auto;
+   margin-bottom: auto;
+   color:white;
+   font-size:0.8em;
+   li{
+     margin-left:0px;
+     margin-right:0px;
+     color:white;
+
+     float:left;
+   }
+  }
+  table{
+    width:100%;
   }
   
 }
@@ -133,7 +173,9 @@ margin-bottom: 0px;;
     margin-bottom:2%;
     margin-left:10%;
   }
-  
+  #branddiv{
+    display: none;
+  }
   #brand{
     font-family: 'Noto Sans', sans-serif;
   margin-left:2%;
@@ -156,7 +198,7 @@ margin-bottom: 0px;;
   padding-right:30px;
   color:black;
   font-family: 'Noto Sans', sans-serif;
-  
+  display: none;
   }
   
 }
