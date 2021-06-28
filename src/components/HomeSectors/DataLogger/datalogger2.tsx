@@ -7,7 +7,7 @@ import logger from './logger2.png';
 
 function DataLogger() {
   return (
-    <div className="dataLogger" id="datalogger">
+    <div className="dataLogger" id="datalogger" >
     
 <div className="container-field" >
   

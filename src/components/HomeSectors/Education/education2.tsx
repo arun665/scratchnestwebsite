@@ -9,7 +9,7 @@ import education from './education.png';
 function Education() {
   return (
       <>
-    <div className="education" id="education">
+    <div className="education" id="education" >
      
 
      <div className="container-field" >

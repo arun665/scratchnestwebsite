@@ -29,9 +29,9 @@ ScratchNest's Beacons.
 <div id="btn1">
 <Link to="/sector/Beacon">
                 
-<button className="btn btn-outline-primary" id="button1" data-aos="zoom-in"> Explore now  </button>
+<button className="btn btn-outline-primary" id="button1" > Explore now  </button>
 </Link>
-<button className="btn btn-outline-primary" id="button2" data-aos="zoom-in">Get Brochure </button>
+<button className="btn btn-outline-primary" id="button2" >Get Brochure </button>
 </div>
 </div>
 </div>
