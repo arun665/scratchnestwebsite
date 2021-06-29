@@ -15,6 +15,7 @@ import Splashscreen from "./components/Splash Screen/Splashscreen";
 
 import DataLoggerSec from "./components/Sector/Logger/DataLogger_sec";
 
+import Dataloggern from "./components/Products/Dataloggern/Dataloggern";
 
 
 
@@ -68,6 +69,8 @@ function App() {
             <Switch>
               <Route component={HomeSector} exact path="/" />
               <Route component={DataLoggerSec} path="/sector/datalogger" />
+              <Route component={Dataloggern} path="/products/logger" />
+              
             </Switch>
           </Router>
         )}
