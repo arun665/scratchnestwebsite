@@ -100,7 +100,7 @@ function Dataloggern(props: any) {
          
        <div id="para1">
          <h1> What is the AmbiTag?</h1>
-         <p> The AmbiTag temperature data logger is a compact 
+         <p> The AmbiTag temperature data logger is a compact sadasdasdadas
  USB device that records the temperature of its 
 immediate surroundings continuously and 
 generates alert when the  temperature goes 
