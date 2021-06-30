@@ -23,7 +23,7 @@ import vector5 from './Vector-5.png';
 import vector6 from './Vector-6.png';
 import vector7 from './Vector-7.png';
 
-
+import Accordion from './accordion';
 interface JQuery {
   switchClass(): void;
 }
@@ -261,9 +261,10 @@ life device</div>
 
 <Carousel2/>
 <Video/> 
-
+<Accordion/>
 
     </div>
+     
 <Footer/>
     </>
   );

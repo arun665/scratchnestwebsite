@@ -226,7 +226,7 @@ function Topheader(props: any) {
       </a>
       <div className="dropdown-menu bg-dark">
 
-      <Link to="/sector/datalogger" className="dropdown-item">
+      <Link to="/products/logger" className="dropdown-item">
      
         <a className="dropdown-item" href="#">   Data Logger</a>
 

@@ -72,7 +72,7 @@ function DataLogger() {
 <div className="col-sm-12 col-xs-12 col-md-12">
 
   <div id="btn2">
-<Link to="/sector/datalogger">
+<Link to="/products/logger">
                         
 <button className="btn btn-outline-primary" id="button1"> know more  </button>
 </Link>
